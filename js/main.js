@@ -180,6 +180,8 @@
         filter: selector,
         animationOptions: {
           duration: 750,
+
+          
           easing: 'linear',
           queue: false
         }
