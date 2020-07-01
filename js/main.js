@@ -227,3 +227,18 @@
   }
 
 })(jQuery);
+
+
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+      if($(window).scrollTop() > $(window).height() - 100){
+          $(".header-area").css({"background-color":"black"});   
+      }
+      else{
+          $(".header-area").css({"background-color":"rgba(0, 0, 0, 0.60)"});
+      }
+
+  })
+})
